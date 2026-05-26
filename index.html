@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Aventuras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="dashboard">
+        <section class="tarjeta-personaje">
+            <h1 id="nombre-heroe">Cargando Héroe...</h1>
+            <p>Clase: <span id="clase-heroe">-</span></p>
+            
+            <div class="barra-vida">
+                <span>Vida del Monstruo: </span>
+                <strong id="vida-monstruo">100/100</strong>
+            </div>
+
+            <button id="boton-atacar">Atacar Monstruo ⚔️</button>
+        </section>
+
+        <section class="tarjeta-inventario">
+            <h2>Mochila de Aventurero</h2>
+            <ul id="lista-mochila">
+                </ul>
+            <button id="boton-buscar">Buscar en el cofre 📦</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

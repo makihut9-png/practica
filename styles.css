@@ -1,0 +1,43 @@
+body {
+    background-color: #121214;
+    color: #e1e1e6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-personaje, .tarjeta-inventario {
+    background-color: #202024;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #323238;
+    width: 300px;
+}
+
+h1, h2 { color: #00b37e; margin-top: 0; }
+
+button {
+    background-color: #00b37e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15px;
+}
+
+button:hover { background-color: #00875f; }
+
+ul { padding-left: 20px; }
+li { margin-bottom: 8px; color: #c4c4cc; }
